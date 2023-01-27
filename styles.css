@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: grid;
+    place-items: center;
+    margin-top: 15%;
+}
+.textContainer{
+    text-align: center;
+    font-size: 30px;
+}
+.textContainer div{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 100px;
+}
+.buttonContainer button{
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 5px 15px;
+    padding: 5px 20px;
+}
+.buttonContainer button:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
